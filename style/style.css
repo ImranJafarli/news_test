@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+body{
+    background-image: url(../image/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.text h1{
+    position: absolute;
+    top: 20px;
+    left: 820px;
+    font-size: 30px ;
+    color: black;
+}
+.nav{
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    padding: 110px;
+    margin: 25px;
+    background-color: crimson;
+}
+.sbc h2{
+    position: absolute;
+    bottom: 500px;
+    left: 420px;
+    color: black;
+    font-size: 45px;
+    line-height: 12px;
+}
+.sbc .registr{
+    position: absolute;
+    bottom: 120px;
+    left: 540px;
+}
+input{
+    width: 270px;
+    height: 25px;
+}
+button{
+    width: 120px;
+    height: 25px;
+    background-color: aqua;
+}
+.football .ball{
+    width: 550px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.football .ball img{
+    width: 100%;
+}
+.football .ball h1{
+    position: absolute;
+    top: 430px;
+    left: 10px;
+    color: black;
+    font-size: 23px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 9px;
+}
+.football .time{
+    position: relative;
+    display: inline-block;
+    bottom: 90px ;
+    left: 10px;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 5px 12px;
+}
+.football .fb{
+    position: relative;
+    bottom: 10px;
+}
+.football .fb p{
+    font-size: 30px;
+}
+.world .politics{
+    width: 550px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.world .politics img{
+    width: 100%;
+}
+.world .politics h1{
+    position: absolute;
+    top: 430px;
+    left: 10px;
+    font-size: 30px;
+    line-height: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 60px;
+}
+.world .watch{
+    position: relative;
+    display: inline-block;
+    bottom: 90px ;
+    left: 10px;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 5px 12px;
+}
+.world .iran{
+    position: relative;
+    bottom: 10px;
+}
+.world .iran p{
+    font-size: 30px;
+}
+.end{
+    text-align: center;
+}
