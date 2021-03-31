@@ -16,25 +16,21 @@ body{
     font-size: 30px ;
     color: black;
 }
-.nav{
-    font-size: 20px;
-}
-ul{
+.text ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: blueviolet;
-    position: fixed;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
-li{
+.text li{
     float: left;
 }
-li a{
-    padding: 110px;
-    margin: 25px;
-    background-color: crimson;
+.text li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    margin-left: 210px;
+    color: black;
+    font-size: 25px
 }
 .sbc h2{
     position: absolute;
@@ -68,7 +64,7 @@ button{
 }
 .football .ball h1{
     position: absolute;
-    top: 430px;
+    top: 500px;
     left: 10px;
     color: black;
     font-size: 23px;
@@ -132,4 +128,14 @@ button{
 }
 .end{
     text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 145px;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: black;
+  }
+footer{
+    display: block;
 }
